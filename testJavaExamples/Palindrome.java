@@ -8,13 +8,17 @@
  */
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Palindrome {
 	public static void main(String[] args)
 	{
-		String p = "malayalam";
+		Scanner sc = new Scanner(System.in); System.out.println("Enter the string to check if it's palindrome");
+		String p = sc.nextLine();
+		//String p = "malayalam";
 		char[] arry = p.toCharArray();
-		System.out.println("String before Reversing: "+ Arrays.toString(arry));
+		System.out.println("String before Reversing: "+ Arrays.toString(arry)); /*Arrays.toString() returns the
+																				string representation of an array */
 		int len = arry.length; //assigns the size of array to the variable.
 		char[] tmp = new char[len];
 		//int i,j; // either can initialise variable i and j or directly below in for loop
