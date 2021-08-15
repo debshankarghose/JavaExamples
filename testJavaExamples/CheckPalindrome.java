@@ -1,7 +1,6 @@
 
 public class CheckPalindrome {
 	//code to palindrome
-
 	    public static void main(String [] args){
 	        CheckPalindrome pn = new CheckPalindrome();
 	        
