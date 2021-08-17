@@ -1,0 +1,20 @@
+/*
+In java either the attributes or methods are public or static.
+
+If a method is created using static, it can be accessed within a class without creating an object of the class.
+But public can only be accessed with the help of an object.
+
+Class can be either Public or Default.
+
+Access modifier:
+Public -is an access modifier. Public is accessed by all classes.
+Default - can only be accessed by classes within the same package.
+Private - can be accessed within in the same declared class.
+protected - can be accessed within in the same package and sub-classes.
+
+Non-Access modifier:
+final - once associated to an identifier/method, it cannot be inherited or modified.
+abstract - abstract is used for class and methods. Abstract method can only be created under an abstract class.
+An abstract method does not have a body and is provided by the subclass.
+** abstract cannot used for a modifier but just for methods and classes.
+*/
