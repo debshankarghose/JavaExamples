@@ -17,4 +17,30 @@ final - once associated to an identifier/method, it cannot be inherited or modif
 abstract - abstract is used for class and methods. Abstract method can only be created under an abstract class.
 An abstract method does not have a body and is provided by the subclass.
 ** abstract cannot used for a modifier but just for methods and classes.
+
+Interface is similar to an abstract class, have empty methods which are defined by the inherited/implemented class.
+The only difference between inheritence, it's called by keyword 'implements' instead of 'extends'. Just like abstract class
+, interface cannot be used to create an object.
+
+Java doesn't support multiple Inheritance but multiple inheritance can be achieved through implementing multiple interfaces.
+
+Enums are kind of classes which have identifiers not going to change.
+
+The ArrayList class has a regular array inside it. When an element is added, it is placed into the array. If the array is not
+big enough, a new, larger array is created to replace the old one and the old one is removed.
+
+The LinkedList stores its items in "containers." The list has a link to the first container and each container has a link
+to the next container in the list. To add an element to the list, the element is placed into a new container and that
+container is linked to one of the other containers in the list.
+
+In a HashMap collection, the data are stored in key value pairs. It can store different types: String keys and Integer values,
+or the same type, like: String keys and String values:
+
+In a HashSet, every item needs to be unique and even if duplicate items are entered, they are not returned. HashSet does NOT
+store in key, value pairs.
+-------------------------------------------------------------------------------------------------------------
+Point to note:
+- you can call system.out.println from the class without defining a method and calling from within the method.
+- you can create an object of the class without defining the void main method.
+- It is best to use a LinkedList when you only use the list by looping through it instead of accessing random items.
 */
