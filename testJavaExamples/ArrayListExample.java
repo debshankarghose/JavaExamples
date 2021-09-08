@@ -11,6 +11,8 @@ public class ArrayListExample {
         cars.add("BMW");
         System.out.println("Returning the array list: "+cars);
         System.out.println("Fetching a value from the arraylist by index:"+cars.get(0)); //fetching through an index value
+        Collections.reverse(cars); //Reverse of the string entry in the arraylist
+        System.out.println("Usage of Reverse: "+cars);
         Collections.sort(cars); //sorting the cars list
         for(String car:cars) { //looping through the array list
             System.out.println(car);

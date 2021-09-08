@@ -9,12 +9,13 @@ public class HashMapExample {
         cities.put("America", "Washington DC");
         cities.put("England", "London");
         System.out.println(cities);
-        /*for(String city: cities.keySet()) { //Note: for HasMap, using forEach loop, .keySet needs to be call to traverse through the hashmap.
+        for(String city: cities.keySet()) { /*Note: for HasMap, using forEach loop, .keySet needs to be call to traverse
+         through the hashmap. */
             if(city.contains("England")) {
                 System.out.println("Will not print the city -- London");
                 System.out.println(city);
                 }
-        } */
+        }
 
     }
 }

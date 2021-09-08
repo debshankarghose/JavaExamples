@@ -7,11 +7,7 @@ public class StringConcat {
 		StringConcat s = new StringConcat();
 		String sn1 = s.concatStr();
 		System.out.println(sn1);
-	
-		
 	}
-
-	
 	public String concatStr() {
 	String s1 = "100";
 	String s4 = "200";

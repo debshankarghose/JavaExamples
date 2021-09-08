@@ -1,4 +1,3 @@
-
 public class ReverseString {
 
 	public static void main(String[] args) {
@@ -13,14 +12,9 @@ public class ReverseString {
 		System.out.print("Reverse Conversion:");
 		for (int i = len-1;i>=0; i--)
 		{
-			
 			System.out.print(array[i]);
-			
-				
-			}
-			
-			
-			}
+		}
+	}
 
 		
 
