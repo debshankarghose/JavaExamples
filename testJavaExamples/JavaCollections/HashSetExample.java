@@ -1,3 +1,5 @@
+package JavaCollections;
+
 import java.util.HashSet;
 
 public class HashSetExample {

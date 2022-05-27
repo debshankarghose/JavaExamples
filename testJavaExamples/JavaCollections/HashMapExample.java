@@ -1,3 +1,5 @@
+package JavaCollections;
+
 import java.util.HashMap;
 /*
 Hashmap have the data placed in the container in sorted manner

@@ -1,3 +1,5 @@
+package JavaCollections;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -10,10 +12,10 @@ public class IteratorExample {
             numbers.add(23);
             Iterator<Integer> it = numbers.iterator(); //Iterator is part of collection framework
             //Insead of loop, iterator is used to loop through the array list
-            while(it.hasNext()) {
+            while(it.hasNext()) {//hasNext is a method for Iterator
                 Integer i = it.next();
                 if(i < 10) {
-                    it.remove();
+                    it.remove(); //remove is a method for Iterator
                 }
             }
             System.out.println(numbers);
