@@ -1,6 +1,4 @@
 public class Hello {
     //this is a test for git revert.
-    /*Adding in some more lines
-    test1 */
-
+    /*Adding in some more lines */
 }
