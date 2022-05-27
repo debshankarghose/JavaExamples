@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SwitchCaseExample {
     public void DayOfWeek(int day) {
         switch (day) {
-            case 1 -> {
+            case 1 -> { //Either you can use -> or : when defining the cases
                 System.out.println("Today is Monday");
                 break;
             }
